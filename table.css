@@ -1,0 +1,160 @@
+h1{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+h3{
+    width:100%;
+    font-family: "archia";
+    font-size: 24px!important;
+    font-weight: 900;
+  }
+
+body {
+    background-color: #f3f3f3;
+  }
+
+h5{
+font-size: 12px!important;
+}
+.home{
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.header h5 {
+	color: #ff073a;
+    font-weight: 600;
+    color: #6c757d;
+    margin: 0;
+    text-align: center;
+}
+.det{
+	    float: left;
+	    margin-left: 7rem;
+	    text-align: center;
+	    margin-bottom: 5rem;
+}
+.divleft{
+	float:left;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+	width: 50rem;
+}
+.divright{
+	    float:right;
+	    width: 70rem;
+	    margin-right: 5rem;
+	    margin-top: 5rem;
+	    text-align: center;
+
+}
+.red h5,.red h6, #redmap h5, #red {
+    color: #ff073a;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.green h5,.green h6, #green {
+    color: #28a745;
+    font-weight: 600;
+    text-align: center;
+     margin-bottom: 2rem;
+}
+.blue h5,.blue h6 {
+    
+    color: #007bff;
+    font-weight: 600;
+    text-align: center;
+     margin-bottom: 2rem;
+}
+.grey h5,.grey h6 , #grey {
+    color: #6c757d;
+    font-weight: 600;
+    text-align: center;
+     margin-bottom: 2rem;
+}
+
+.red h6, .green h6, .blue h6, .grey h6, #redmap h6{
+	font-size:24px;
+	text-align: center;
+}
+
+#text-content{
+	font-family: "archia";
+
+}
+
+.MapHeader{
+	font-family: "archia";
+    font-size: 24px!important;
+    font-weight: 900;
+    text-align: center;
+    color: #6c757d;
+}
+
+.MapContent{
+	font-family: "archia";
+    font-size: 15px!important;
+    font-weight: 400;
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 5rem;
+    margin-top: -1.5rem;
+}
+
+.MapIndia{
+	width: 70rem;
+	color: #6c757d;
+	margin-bottom: 10rem;
+}
+
+.mapdet{
+	margin-bottom: : 10rem;
+}
+
+.LineDiv{
+	margin-top: 20rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #f3f3f3;
+  }
+  .divleft{
+  	width: 28rem;
+  	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+.divright{
+  	width: 30rem;
+	margin-right: 2.5rem;
+}
+
+.MapIndia{
+	width: 70rem;
+	color: #6c757d;
+	margin-right: 5rem;
+	text-align: left;
+}
+
+
+
+
+
+
+}
